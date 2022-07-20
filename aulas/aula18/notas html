@@ -1,0 +1,11 @@
+<?php if ($nome=="Guilherme") { echo "style='background:blue; color:purple'";}?> > <!--- Aqui quando eu clico em Guilherme o fundo fica azul, e o h1 roxo. Por que adicionei um estilo para o valor "Guilherme" na variavel nome. !-->
+
+    <h1>Olá <?php echo $nome; ?></h1> <!-- Pego a váriavel que esta no meu cabeçalho/URL http://localhost/estudos/php-programacao-web/aulas/aula18/index.php?nome=Guilherme que nesse caso é a várivel nome, com valor "Guilherme" !---> 
+     
+
+    <a href="index.php?nome=Guilherme">Ir para o Bonitão </a> <!-- Pra cada nome vou pra um enderaço, e cada endereço altera o valor da variavel "nome" !-->
+    <br>
+    <a href="index.php?nome=Matheus&cor=yellow">Ir para a Desgraça </a>
+    <br>
+    <a href="index.php?nome=Guanabara&cor=green">Ir para o Guanabara</a>
+    <br>
